@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Britecore Dashboard</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	
+</head>
+<body>
+	<div class="wrapper">
+		<div class="header">
+			<form>
+				<i class="fa fa-search" aria-hidden="true"></i><input type="text" name="" placeholder="Search" class="search">
+			</form>
+			<span class="right-nav">
+				<img src="images/message.png" class="mail">
+				<img id="vertical" src="images/vertical-line.png">
+				<img src="images/bell.png" class="bell">
+				<img id="vertical" src="images/vertical-line.png">
+				<img src="images/user.png" class="user"><span class="name">John Doe</span>
+			</span>
+		</div>
+		<div class="menu">
+			<img src="images/britecore-logo.png" class="logo">
+			<ul class="navigation">
+				<li><a href="#"><i class="fa fa-home" aria-hidden="true"></i>  DASHBOARD</a></li>
+				<li><a href="#"> <i class="fa fa-line-chart" aria-hidden="true"></i>  REPORTS</a></li>
+				<li><a href="#" id="active"><i class="fa fa-shield" aria-hidden="true"></i>  POLICIES</a>
+					<ul class="dropdown">
+					<li><a href="#">HOME</a></li>
+					<li><a href="#" class="auto">AUTO</a></li>
+					<li><a href="#">CYBER</a></li>
+					<li><a href="#">PRIZE</a></li>
+					<li><a href="#"><span>+</span>NEW</a></li>
+				</ul>
+				</li>
+				<li><a href="#"><i class="fa fa-file-text" aria-hidden="true"></i>  FILES</a></li>
+				<li><a href="#"><i class="fa fa-cog" aria-hidden="true"></i> USER  SETTINGS</a></li>
+			</ul>
+		</div>
+		<div class="content">
+			<h1>AUTOMOBILE POLICY</h1>
+			<span class="plus">+</span><span class="add">ADD SECTION</span>
+			<div class="content-wrapper">
+				<div class="help">
+					<p class="need-help">Need Help?</p>
+					<hr>
+					<p class="need-help">Have any questions? Stuck on something or found a bug? Feel free to contact us!</p>
+					<p class="contact-email">info@britecore.com</p>
+				</div>
+
+				<div class="q1">
+					<p>How many vehicles are you looking to insure?</p>
+					<select name="Input Type">
+						<option>Number</option>
+						<option>Input Type</option>
+						<option>Text</option>
+						<option>Date</option>
+						<option>Currency</option>
+					</select>
+				</div>
+		
+				<div class="q2">
+					<p>What make is your vehicle?</p>
+					<select name="Input Type">
+						<option>Text</option>
+						<option>Input Type</option>
+						<option>Number</option>
+						<option>Date</option>
+						<option>Currency</option>
+					</select>
+				</div>
+				<div class="q3">
+					<input type="text" name="" placeholder="Type Question" class="question">
+					<select name="Input Type">
+						<option>Input Type</option>
+						<option>Text</option>
+						<option>Number</option>
+						<option>Date</option>
+						<option>Currency</option>
+					</select>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+
+</body>
+</html>
